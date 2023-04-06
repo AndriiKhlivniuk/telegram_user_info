@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Account Info</title>
+</head>
+<body>
+    <h1>Account Page</h1>
+    <h2>Name: {{ user_info['name'] }}</h2>
+    <h2>Nickname: {{ user_info['nickname'] }}</h2>
+    <img src="/photo_image?filename={{ user_info['photo'] }}" alt="My Photo">
+    <h2>Acccount id: {{ user_info['user_id'] }}</h2>
+</body>
+</html>
